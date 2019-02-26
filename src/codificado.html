@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <!--logo de laboratoria al lado de nuestro título-->
+    <link rel="icon" href="img/laboratoria.ico">
+</head>
+
+<body>
+  <!--Caja contender del codificado-->
+  <div>
+  <p>Ingrese Su Mensaje:</p>
+  <textarea id="mensaje" placeholder="Su mensaje aquí..."></textarea>
+
+  <label >Ingrese N° de desplazamiento</label>
+  <input type="number" id="off">
+
+  <button id="boton" >Codifica tu Mensaje</button>
+  <textarea id="mensaje2" ></textarea>
+
+  <!--Botones direccionales -->
+  <button onclick="location.reload();" >Limpiar</button>
+  <button onclick="location.href='inicio.html'">Salir</button>
+  <button onclick="location.href='decodificar.html'">Descifrar</button>
+  </div>
+
+  <!--Archivo script-->
+  <script src="cipher.js"></script>
+  <script src="codificado.js"></script>
+
+</body>
+
+</html>

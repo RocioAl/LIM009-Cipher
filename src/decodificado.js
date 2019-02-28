@@ -1,8 +1,9 @@
 window.onload = () => {
-  const btnde = document.getElementById("btnde");
-  btnde.addEventListener('click', () => { {
+
+  const botonde = document.getElementById("btnde");
+  botonde.addEventListener('click', () => {
   let textde = document.getElementById("mensajede").value;
-  let numde = document.getElementById("offde").value;
-  document.getElementById("mensajede2").innerHTML = window.cipher.decode(textde, numde);
+  let num= document.getElementById("offde").value;
+  document.getElementById("mensaje2de").innerHTML = window.cipher.decode(textde, num);
 });
-}
+  }

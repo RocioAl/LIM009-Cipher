@@ -2,12 +2,12 @@
 Es una aplicación web en la cual el usuario puede cifrar y descifrar un texto indicando cuantas posiciones quiere que el cifrado desplace cada carácter mediante un parámetro de desplazamiento de 33 espacios hacia la derecha .
 
 ## DESARROLLADO PARA:
-Laboratoria
+**Laboratoria**
 
 
 
 
-## TECNOLOGÍA UTILIZADA
+## TECNOLOGÍA UTILIZADA:
 1.	HTML5
 2.	CSS3
 3.	 VanillaJS.
@@ -31,11 +31,14 @@ Esta App está dirigida a los profesionales y responsables del desarrollo web po
 3.	Declarar e iniciar variable en donde se convierte la letra en código ascii.
 4.	Declarar e iniciar una variable que guarda la conversión de código ascii a letra.
 5.	Mediante el control de flujo condicional if analizar las letras mayúsculas  y ejecutar los 33 espacios convirtiéndolos de lenguaje ascii a letra.
-6.	Mediante el control de flujo condicional if analizar las letras minúsculas a= 97 y z=122 y ejecutar los 33 espacios,
+6.	Mediante el control de flujo condicional if analizar las letras minúsculas a= 97 y z=122 y ejecutar los 33 espacios.
 7.	Salida de la palabra descifrada.
 
-## INTERFACES DESKTOP Y MOBILE
-## DIAGRAMA DE FLUJO
-## ENLACE DEPLOY
+## INTERFACES DESKTOP Y MOBILE:
+
+## DIAGRAMA DE FLUJO:
+
+## ENLACE DEPLOY:
+https://rocioal.github.io/LIM009-Cipher/src/
 
 

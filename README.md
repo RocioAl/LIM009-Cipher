@@ -35,7 +35,8 @@ Esta App está dirigida a los profesionales y responsables del desarrollo web po
 7.	Salida de la palabra descifrada.
 
 ## INTERFACES DESKTOP Y MOBILE:
-
+## DESKTOP 
+![alt text](http://url/img/desktop.png) 
 ## DIAGRAMA DE FLUJO:
 
 ## ENLACE DEPLOY:

@@ -4,6 +4,7 @@ window.onload = () => {
   let text = document.getElementById("mensaje").value;
   let num = document.getElementById("off").value;
   document.getElementById("mensaje2").innerHTML = window.cipher.encode(text, num);
+
   });
 
   }

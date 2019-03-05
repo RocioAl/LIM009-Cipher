@@ -6,41 +6,33 @@
       <script src="inicio.js"></script>
       <!--logo de laboratoria al lado de nuestro título-->
       <link rel="icon" href="img/laboratoria.ico">
+      <link rel="stylesheet" href="style.css">
+
   </head>
 
   <body>
+      <video src="img/red.mp4" autoplay loop muted poster=""></video>
+
       <!--Primera interface 2-->
-
       <header id="biography">
-
-      <h1>Cifrado César</h1>
-      <label class="texto">Ingresa tu nombre:</label>
-      <input type="text" id="name" >
-      <button class="boton" onclick="myFunction()">Ir</button>
-    </header>
+        <center>
+        <h1>Cifrado César</h1>
+        <label class="texto">Ingresa tu nombre:</label>
+        <input type="text" id="name" onkeypress="return onlyLetters(event)">
+        <button id="btn" class="boton" onclick="myFunction()">Ir</button>
+        </center>
+     </header>
 
       <!--Segunda Interface-->
-      <section id="summit">
-      <h1 id="bienvenida"></h1>
-    </section>
-
-      <!-- Botóm direccional -->
-
-   <footer>
-      <button id="btn" onclick="location.href='options.html'">Ingresar</button>
-
- </footer>
+     <section id="summit">
+        <center>
+        <h1 id="bienvenida"></h1>
+        <center>
+        <button id="btn2" onclick="location.href='options.html'" >Ingresar</button>
+        </center>
+        </center>
+     </section>
 
 
-      <!-- Función para el botón -->
-      <script type="text/javascript">
-      mybutton= () => {
-        if (summit==none) {
-          btn==block
-        }
-
-      }
-      </script>
-
-    </body>
-  </html>
+  </body>
+</html>

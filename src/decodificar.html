@@ -5,24 +5,81 @@
     <title>Caesar Cipher</title>
     <!--logo de laboratoria al lado de nuestro título-->
     <link rel="icon" href="img/laboratoria.ico">
+     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+  <body id="contenedor" >
     <!--Caja contender del decodificado-->
-    <div >
+
+
+
+    <header>
+
+           <img id="image" src="img/banner.jpg"   >
+
+            <center>
+           <br>
+           <h1 class="header-title">Decodificado</h1>
+         </center>
+    </header>
+
+<center>
+
+    <section id="main">
     <p>Ingrese Su Mensaje:</p>
-    <textarea id="mensajede" placeholder="Su mensaje aquí..."></textarea>
+    <br>
+    <br>
+
+
+    <textarea id="mensajede" placeholder="Copie aquí..."></textarea>
+    <br>
+    <br>
 
     <label >Ingrese N° de desplazamiento</label>
+    <br>
+    <br>
     <input type="number" id="offde" >
-
+    <br>
+    <br>
+    <div id="ocultar">
     <button id="btnde">Decodifica tu Mensaje</button>
+    <button onclick="location.reload();" class="btn2">Limpiar</button>
+
+  </div>
+    <br>
+    <br>
     <textarea id="mensaje2de" ></textarea>
+    <br>
+    <br>
 
     <!--Botones direccionales -->
-    <button onclick="location.reload();">Limpiar</button>
-    <button id="btn" onclick="location.href='index.html'">Salir</button>
+    <div id="mostrar">
+      <button onclick="location.href='https://codepen.io/roc-o-alberto/pen/EMKORW'" class="btn2">Programe</button>
+        <button onclick="location.href='index.html'" class="btn2">Salir</button>
     </div>
+
+    </section>
+
+
+
+<script type="text/javascript">
+  const btnde=document.getElementById('btnde');
+  const ocultar=document.getElementById('ocultar');
+  const mostrar=document.getElementById('mostrar')
+
+  btnde.addEventListener('click', function () {
+    ocultar.style.display = 'none';
+    mostrar.style.display='block';
+
+  })
+
+
+</script>
+    </center>
+    <footer id="pieprincipal">
+      <small>Derechos reservados</small>
+    </footer>
+ 
 
     <!--Archivo JS-->
     <script src="cipher.js"></script>

@@ -36,7 +36,7 @@ Esta App está dirigida a los profesionales y responsables del desarrollo web po
 
 ## INTERFACES DESKTOP Y MOBILE:
 ## DESKTOP 
-![alt text](http://url/cipher-2019/LIM009-Cipher/rc/img/desktop.png ) 
+![alt text](http://url/LIM009-Cipher/rc/img/desktop.png ) 
 ## DIAGRAMA DE FLUJO:
 
 ## ENLACE DEPLOY:

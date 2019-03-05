@@ -1,11 +1,9 @@
-
-
-
 body{
   margin:0;
   display: flex;
   justify-content: flex-end;
 }
+
 video{
   position: fixed;
   min-width: 100%;
@@ -15,8 +13,8 @@ video{
   transform: translateX(-50%)translateY(-50%);
   z-index: -1;
   /*-webkit-filter: grayscale(100%);*/
-
 }
+
 #biography{
   width: 40%;
   background: rgba(0, 0, 0, 0.5);
@@ -24,9 +22,8 @@ video{
   padding: 20px;
   margin: 25px auto;
   text-align: center;
-
-
 }
+
 #bienvenida{
   background: #fff;
   color: #000000;
@@ -43,43 +40,39 @@ video{
   padding: 5px;
   box-shadow:#999 5px 5px 10px;
   border-radius:20px;
-
 }
   #btn{
-    background: rgba(0, 0, 0, 0.0);
-    margin-right: 50px;
-    text-align: center;
-    padding: 5px ;
-    padding-right: 25px;
-    padding-left: 25px;
-    margin-top: 25px;
-    margin: auto;
-      color: #FFF;
-
-  }
-  .btn2{
-
-			text-align:center;
-			text-decoration: none;
-      font-family: 'Helvetica Neue', Helvetica, sans-serif;
-      display:inline-block;
-			color: #FFF;
-			background: #7F8C8D;
-			padding: 15px 30px;
-			white-space: nowrap;
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
-			border-radius: 5px;
-			margin: 10px 5px;
-			-webkit-transition: all 0.2s ease-in-out;
-			-ms-transition: all 0.2s ease-in-out;
-			-moz-transition: all 0.2s ease-in-out;
-			-o-transition: all 0.2s ease-in-out;
-			transition: all 0.2s ease-in-out;
-
+  background: rgba(0, 0, 0, 0.0);
+  margin-right: 50px;
+  text-align: center;
+  padding: 5px ;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 25px;
+  margin: auto;
+  color: #FFF;
 
 }
-#btnCopy{
+ .btn2{
+  text-align:center;
+	text-decoration: none;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  display:inline-block;
+	color: #FFF;
+	background: #7F8C8D;
+	padding: 15px 30px;
+	white-space: nowrap;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 10px 5px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+  #btnCopy{
   text-align:center;
   text-decoration: none;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -98,8 +91,7 @@ video{
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
-#btnde{
+  #btnde{
   text-align:center;
   text-decoration: none;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -118,7 +110,7 @@ video{
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#boton{
+  #boton{
   text-align:center;
   text-decoration: none;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -136,129 +128,107 @@ video{
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-
 }
-#contenedor{
+  #contenedor{
   background:#333 ;
   background-size: cover;
 	font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif,aclonica;
-    font-size:14px;
+  font-size:14px;
 	color:white;
   display: inline-block;
   width: 100%;
-
 }
-#main{
+  #main{
   box-sizing: border-box;
   width: 48%;
   border:1px solid #F99;
-
   -webkit-transition:-webkit-transform 1s ease-in-out 0.5s;
   margin-top: 90px;
   box-sizing: border-box;
-
-
 }
-#main:hover{
--webkit-transform:scale(1.5);
+  #main:hover{
+  -webkit-transform:scale(1.5);
 }
-#mensaje{
+ #mensaje{
   margin-top: 5px;
   width: 250px;
   height: 30px;
-    display: inline-block;
-
+  display: inline-block;
 }
-#off{
+  #off{
   margin-top: 5px;
-    width:  250px;
-    height: 30px;
-}
-#mensaje2{
-  margin-top: 5px;
-    width:  250px;
-    height: 30px;
-    display: inline-block;
-
-}
-#mensajede{
   width:  250px;
   height: 30px;
-    display: inline-block;
 }
-#offde{
+ #mensaje2{
+ margin-top: 5px;
+ width:  250px;
+ height: 30px;
+ display: inline-block;
+}
+ #mensajede{
   width:  250px;
   height: 30px;
-    display: inline-block;
+  display: inline-block;
 }
-#mensaje2de{
+ #offde{
   width:  250px;
   height: 30px;
-    display: inline-block;
+  display: inline-block;
 }
-
-#pieprincipal{
-
-
+ #mensaje2de{
+  width:  250px;
+  height: 30px;
+  display: inline-block;
+}
+ #pieprincipal{
 	margin-top:85px;
 }
-#image{
+ #image{
   height: 225px;
   width: 100%;
-
-
 }
-#image2{
+ #image2{
   height: 225px;
   width: 100%;
-
 }
-#summit {
-margin-left: 20px;
-  display: none;;
+ #summit {
+ margin-left: 20px;
+ display: none;;
 }
-
-#lista{
-
-
+ #lista{
 }
-#mostrar{
-    display: none;;
+ #mostrar{
+ display: none;;
 }
-footer{
+ footer{
   margin-top: 55px;
 }
-
-@font-face{
+ @font-face{
 	font-family:'miestilo';
 	src:url(img/PERTILI.TTF);
 }
-.header-title{
+ .header-title{
 	font:bold 35px 'miestilo' ;
 	text-shadow:#666 2px 2px 5px;
 	color:white;
 }
-.responsive{
+ .responsive{
   padding-left: 50px;
   padding-right: 30px;
-
-
 }
-@media screen and(max-width:800px) {
+  @media screen and(max-width:800px) {
   #main{
-    width: 100%;
+  width: 100%;
   }
-
 }
-
-@media screen and(max-width:400px) {
-  #contenedor{
-    width: 100%;
+ @media screen and(max-width:400px) {
+ #contenedor{
+ width: 100%;
   }
-
 }
-textarea {
-    font-family: monospace;
-    border-color: rgb(169, 169, 169);
-    width: 40%;
+ textarea {
+ font-family: monospace;
+ border-color: rgb(169, 169, 169);
+ width: 40%;
 }

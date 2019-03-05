@@ -7,12 +7,10 @@
       <!--logo de laboratoria al lado de nuestro título-->
       <link rel="icon" href="img/laboratoria.ico">
       <link rel="stylesheet" href="style.css">
-
   </head>
 
   <body>
       <video src="img/red.mp4" autoplay loop muted poster=""></video>
-
       <!--Primera interface 2-->
       <header id="biography">
         <center>
@@ -21,10 +19,10 @@
         <input type="text" id="name" onkeypress="return onlyLetters(event)">
         <button id="btn" class="boton" onclick="myFunction()">Ir</button>
         </center>
-     </header>
+      </header>
 
       <!--Segunda Interface-->
-     <section id="summit">
+      <section id="summit">
         <center>
         <h1 id="bienvenida"></h1>
         <center>
@@ -32,7 +30,25 @@
         </center>
         </center>
      </section>
-
+      <!--Validando sólo letras-->
+      <script>
+        onlyLetters=(e)=> {
+        key=e.keyCode || e.which;
+        keyboard=String.fromCharCode(key).toLowerCase();
+        letters="qwertyuiopasdfghjklñzxcvbnm ";
+        special="8-37-38-46-164";
+        specialKeys=false;
+        for(let i in special){
+         if(key==special[i]){
+            specialKeys=true;
+            break;
+         }
+         }
+        if(letters.indexOf(keyboard)==-1 && !specialKeys){
+        return false;
+          }
+         }
+      </script>
 
   </body>
 </html>

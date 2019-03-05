@@ -7,89 +7,69 @@
     <!--logo de laboratoria al lado de nuestro título-->
     <link rel="icon" href="img/laboratoria.ico">
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body  id="contenedor">
+   <header>
+     <img id="image" src="img/banner.jpg"   >
+     <center>
+     <h1 class="header-title">Codificado</h1>
+     </center>
+     <br>
+     <br>
+     <br>
+     <br>
+   </header>
+    <!--Caja contender del codificado-->
+   <center>
 
-<header>
-
-       <img id="image" src="img/banner.jpg"   >
-
-<center>
-  <h1 class="header-title">Codificado</h1>
-  </center>
-  <br>
-  <br>
-  <br>
-  <br>
-</header>
-  <!--Caja contender del codificado-->
-  <center>
-
-  <section id="main">
-
-
+   <section id="main">
 
     <label id="parrafo" >Ingrese Su Mensaje:</label>
     <br>
     <br>
-  <textarea id="mensaje" placeholder="Su mensaje aquí..." ></textarea>
-  <br>
-  <br>
+    <textarea id="mensaje" placeholder="Su mensaje aquí..." ></textarea>
+    <br>
+    <br>
+
+    <label >Ingrese N° de desplazamiento</label>
+    <br>
+    <br>
+    <input type="number" id="off">
+    <br>
+    <br>
 
 
-  <label >Ingrese N° de desplazamiento</label>
-  <br>
-  <br>
-  <input type="number" id="off">
-  <br>
-  <br>
+    <button id="boton" >Codifica tu Mensaje</button>
+    <br>
+    <br>
+    <textarea id="mensaje2" ></textarea>
+    <br>
+    <br>
+    <button class="btn2" onclick="copy()">Copy</button>
 
-
-  <button id="boton" >Codifica tu Mensaje</button>
-  <br>
-  <br>
-  <textarea id="mensaje2" ></textarea>
-  <br>
-  <br>
- <button class="btn2" onclick="copy()">Copy</button>
-
-  <!--Botones direccionales -->
-
-  <button onclick="location.reload();" class="btn2" >Limpiar</button>
-  <button onclick="location.href='index.html'" class="btn2">Salir</button>
-  <button onclick="location.href='decodificar.html'" class="btn2">Descifrar</button>
-
-
-</section>
-
+    <!--Botones direccionales -->
+    <button onclick="location.reload();" class="btn2" >Limpiar</button>
+    <button onclick="location.href='index.html'" class="btn2">Salir</button>
+    <button onclick="location.href='decodificar.html'" class="btn2">Descifrar</button>
+  </section>
   </center>
 
+  <footer id="pieprincipal">
+     <small>Derechos reservados</small>
+  </footer>
+  <script>
+     copy=()=>{
+     const mensaje2=document.getElementById("mensaje2");
+     const btn2=document.getElementById("btn2");
+     mensaje2.select();
+     document.execCommand("Copy");
+     }
+  </script>
 
-
-<footer id="pieprincipal">
-  <small>Derechos reservados</small>
-</footer>
-
-
-
-<script>
- copy=()=>{
-
-const mensaje2=document.getElementById("mensaje2");
-const btn2=document.getElementById("btn2");
-
-mensaje2.select();
-  document.execCommand("Copy");
-
-}
-</script>
   <!--Archivo script-->
   <script src="cipher.js"></script>
   <script src="codificado.js"></script>
 
-</body>
-
-</html>
+  </body>
+ </html>

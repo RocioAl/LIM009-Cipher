@@ -5,22 +5,4 @@
     document.getElementById("biography").style.display="none"
     document.getElementById("summit").style.display="block"
 
-
 }
-//Validando sólo letras
- /*onlyLetters=(e)=> {
-    key=e.keyCode || e.which;
-    keyboard=String.fromCharCode(key).toLowerCase();
-    letters="qwertyuiopasdfghjklñzxcvbnm ";
-    special="8-37-38-46-164";
-    specialKeys=false;
-    for(let i in special){
-        if(key==special[i]){
-            specialKeys=true;
-            break;
-       }
-    }
-    if(letters.indexOf(keyboard)==-1 && !specialKeys){
-        return false;
-    }
-}*/

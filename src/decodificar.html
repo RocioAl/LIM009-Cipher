@@ -10,76 +10,60 @@
 
   <body id="contenedor" >
     <!--Caja contender del decodificado-->
-
-
-
     <header>
-
-           <img id="image" src="img/banner.jpg"   >
-
-            <center>
-           <br>
-           <h1 class="header-title">Decodificado</h1>
-         </center>
+       <img id="image" src="img/banner.jpg"   >
+       <center>
+       <br>
+       <h1 class="header-title">Decodificado</h1>
+       </center>
     </header>
 
-<center>
-
+    <center>
     <section id="main">
-    <p>Ingrese Su Mensaje:</p>
-    <br>
-    <br>
-
-
-    <textarea id="mensajede" placeholder="Copie aquí..."></textarea>
-    <br>
-    <br>
-
-    <label >Ingrese N° de desplazamiento</label>
-    <br>
-    <br>
-    <input type="number" id="offde" >
-    <br>
-    <br>
+      <p>Ingrese Su Mensaje:</p>
+      <br>
+      <br>
+      <textarea id="mensajede" placeholder="Copie aquí..."></textarea>
+      <br>
+      <br>
+      <label >Ingrese N° de desplazamiento</label>
+      <br>
+      <br>
+      <input type="number" id="offde" >
+      <br>
+      <br>
     <div id="ocultar">
-    <button id="btnde">Decodifica tu Mensaje</button>
-    <button onclick="location.reload();" class="btn2">Limpiar</button>
-
-  </div>
-    <br>
-    <br>
-    <textarea id="mensaje2de" ></textarea>
-    <br>
-    <br>
+      <button id="btnde">Decodifica tu Mensaje</button>
+      <button onclick="location.reload();" class="btn2">Limpiar</button>
+    </div>
+      <br>
+      <br>
+      <textarea id="mensaje2de" ></textarea>
+      <br>
+      <br>
 
     <!--Botones direccionales -->
     <div id="mostrar">
       <button onclick="location.href='https://codepen.io/roc-o-alberto/pen/EMKORW'" class="btn2">Programe</button>
-        <button onclick="location.href='index.html'" class="btn2">Salir</button>
+      <button onclick="location.href='index.html'" class="btn2">Salir</button>
     </div>
-
     </section>
 
+   <script type="text/javascript">
+      const btnde=document.getElementById('btnde');
+      const ocultar=document.getElementById('ocultar');
+      const mostrar=document.getElementById('mostrar')
 
-
-<script type="text/javascript">
-  const btnde=document.getElementById('btnde');
-  const ocultar=document.getElementById('ocultar');
-  const mostrar=document.getElementById('mostrar')
-
-  btnde.addEventListener('click', function () {
-    ocultar.style.display = 'none';
-    mostrar.style.display='block';
-
-  })
-
-
-</script>
-    </center>
-    <footer id="pieprincipal">
+      btnde.addEventListener('click', function () {
+      ocultar.style.display = 'none';
+      mostrar.style.display='block';
+      })
+   </script>
+   </center>
+   <footer id="pieprincipal">
       <small>Derechos reservados</small>
-    </footer>
- 
+   </footer>
+
 
     <!--Archivo JS-->
     <script src="cipher.js"></script>

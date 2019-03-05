@@ -38,7 +38,8 @@ Esta App está dirigida a los profesionales y responsables del desarrollo web po
 ## DESKTOP 
 
      
-        LIM009-Cipher/src/img/desktop.png
+     ![Alt text](relative/path/to/img/desktop.jpg?raw=true "Title")
+
       
       
 ## DIAGRAMA DE FLUJO:

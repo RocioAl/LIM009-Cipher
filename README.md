@@ -40,7 +40,7 @@ Esta App está dirigida a los profesionales y responsables del desarrollo web po
 ## INTERFACES DESKTOP Y MOBILE:
 ## DESKTOP 
 
-     ![caeser-cipher](https://ibb.co/dMPRnBX)
+     https://ibb.co/dMPRnBX
      
       
       

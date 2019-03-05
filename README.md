@@ -8,9 +8,9 @@ Es una aplicación web en la cual el usuario puede cifrar y descifrar un texto i
 
 
 ## TECNOLOGÍA UTILIZADA:
-1.	HTML5
-2.	CSS3
-3.	 VanillaJS.
+1. *HTML5*
+2. *CSS3*
+3. *VanillaJS.*
 
 ## DEFINICIÓN DEL PRODUCTO:
 Esta App está dirigida a los profesionales y responsables del desarrollo web porque se necesita developers que contribuyan a mejorar un producto o servicio .Se puede acceder a la plataforma de desarrollo web descifrando un mensaje.
